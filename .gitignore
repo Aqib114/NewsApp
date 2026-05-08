@@ -1,0 +1,19 @@
+# Xcode
+DerivedData/
+*.xcuserstate
+**/xcuserdata/
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+
+# API secrets (use Build Settings / xcconfig locally; do not commit real keys)
+*.xcconfig.local
